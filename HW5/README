@@ -1,0 +1,20 @@
+README_INF553_HW5
+
+Author: Chenyu Peng, 3498889391
+
+Scala version: scala-2.10.2
+
+Spark version: spark-1.6.1-bin-hadoop2.4 
+IDE version: IntelliJ IDEA 2017.2.4
+
+File include: Chenyu_Peng_description.pdf 
+              community.scala
+              community.jar 
+              Chenyu_Peng_betweenness.txt 
+              Chenyu_Peng_communities.txt
+              
+Note: put community.jar, ratings.csv into your spark-1.6.1-bin-hadoop2.4 file!!!
+
+Questions:
+Run it through spark-submit:
+./bin/spark-submit --class community --master local community.jar ./ratings.csv Chenyu_Peng_communities.txt Chenyu_Peng_betweenness.txt
