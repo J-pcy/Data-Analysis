@@ -1,0 +1,21 @@
+README_INF553_HW1
+
+Author:Chenyu Peng, 3498889391
+
+scala version: scala-2.10.2
+spark version: spark-1.6.1-bin-hadoop2.4
+IDE version: IntelliJ IDEA 2017.2.4
+
+File include: Chenyu_Peng_task1.scala
+			  Chenyu_Peng_task2.scala
+			  Chenyu_Peng_result_task1.txt
+			  Chenyu_Peng_result_task2.txt
+			  Chenyu_Peng_task1.jar
+			  Chenyu_Peng_task2.jar
+			  README.txt
+
+Note: put Chenyu_Peng_task1.jar, Chenyu_Peng_task2.jar, movies.dat, ratings.dat, users.dat into your spark-1.6.1-bin-hadoop2.4 file!!!
+
+run it through spark-submit: 
+./bin/spark-submit --class Chenyu_Peng_task1 --master local[1] ./Chenyu_Peng_task1.jar 
+./bin/spark-submit --class Chenyu_Peng_task2 --master local[1] ./Chenyu_Peng_task2.jar 
