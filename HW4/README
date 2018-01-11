@@ -1,0 +1,15 @@
+README_INF553_HW4
+
+Author: Chenyu Peng, 3498889391 
+
+Python version: 2.7.10
+
+File include: Peng_Chenyu_description.pdf 
+              Peng_Chenyu_clustering.py 
+              Peng_Chenyu_cluster_3.txt
+              
+Note: put Peng_Chenyu_clustering.py, iris.data.txt into the same file!
+
+Questions:
+1. Run it through terminal:
+python Peng_Chenyu_clustering.py iris.data.txt 3
