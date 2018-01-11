@@ -1,0 +1,20 @@
+README_INF553_hw2
+
+Author: Chenyu Peng, 3498889391
+
+Scala version: scala-2.10.2
+Spark version: spark-1.6.1-bin-hadoop2.4 
+IDE version: IntelliJ IDEA 2017.2.4
+
+File include: Chenyu_Peng_SON.scala 
+              Chenyu_Peng_SON.jar
+              Chenyu_Peng_SON.case1_1200.txt 
+              Chenyu_Peng_Description.pdf
+              
+Note: put Chenyu_Peng_SON, ratings.dat, users.dat into your spark-1.6.1-bin-hadoop2.4 file!!!
+
+run it through spark-submit:
+./bin/spark-submit ./Chenyu_Peng_SON.jar 1 ./ratings.dat ./users.dat 1200 
+./bin/spark-submit ./Chenyu_Peng_SON.jar 1 ./ratings.dat ./users.dat 1300 
+./bin/spark-submit ./Chenyu_Peng_SON.jar 2 ./ratings.dat ./users.dat 500 
+./bin/spark-submit ./Chenyu_Peng_SON.jar 2 ./ratings.dat ./users.dat 600
