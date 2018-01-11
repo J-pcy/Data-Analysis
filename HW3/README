@@ -1,0 +1,25 @@
+README_INF553_HW3
+
+Author: Chenyu Peng, 3498889391
+
+Scala version: scala-2.10.2
+Spark version: spark-1.6.1-bin-hadoop2.4 
+IDE version: IntelliJ IDEA 2017.2.4
+
+File include: Chenyu_Peng_description.txt 
+              Chenyu_Peng_task1.scala
+              Chenyu_Peng_task2.scala 
+              Chenyu_Peng_result_task1.txt 
+              Chenyu_Peng_result_task2.txt 
+              Chenyu_Peng_task1.jar 
+              Chenyu_Peng_task2.jar
+              
+Note: put Chenyu_Peng_task1.jar, Chenyu_Peng_task2.jar, ratings.csv, testing_small.csv into your spark-1.6.1-bin-hadoop2.4 file!!!
+
+Questions:
+1. For missing users, I use users’ average rate to replace it. 
+When predicted value exceeds [0,5] range, use border 0 and 5 to replace these values which exceed.
+
+2. Run it through spark-submit:
+./bin/spark-submit --class Chenyu_Peng_task1 ./Chenyu_Peng_task1.jar ./ratings.csv ./testing_small.csv
+./bin/spark-submit --class Chenyu_Peng_task2 ./Chenyu_Peng_task2.jar ./ratings.csv ./testing_small.csv
